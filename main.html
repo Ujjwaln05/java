@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Amazon Clone</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <div class="logo">
+      <a href="#"><img src="images/amazon_logo.png" alt="Amazon Logo"></a>
+    </div>
+    <div class="search-bar">
+      <input type="text" id="searchInput" placeholder="Search for anything">
+      <button id="searchButton">Search</button>
+    </div>
+    <div class="user-section">
+      <a href="#">Hello, Sign In</a>
+      <a href="#">Account & Lists</a>
+      <a href="#">Returns & Orders</a>
+      <a href="#">Cart</a>
+    </div>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#">All</a></li>
+      <li><a href="#">Today's Deals</a></li>
+      <li><a href="#">Customer Service</a></li>
+      <li><a href="#">Gift Cards</a></li>
+      <li><a href="#">Registry</a></li>
+      <li><a href="#">Sell</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <div class="hero-section">
+      <img src="images/hero_image.jpg" alt="Hero Image">
+    </div>
+
+    <section class="featured-deals">
+      <h2>Featured Deals</h2>
+      <div class="deal-container">
+        <div class="deal">
+          <img src="images/deal1.jpg" alt="Deal 1">
+          <h3>Deal 1</h3>
+          <p>Limited Time Offer</p>
+        </div>
+        <div class="deal">
+          <img src="images/deal2.jpg" alt="Deal 2">
+          <h3>Deal 2</h3>
+          <p>Save Now</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="product-categories">
+      <h2>Shop by Category</h2>
+      <div class="category-list">
+        <ul>
+          <li><a href="#">Electronics</a></li>
+          <li><a href="#">Books</a></li>
+          <li><a href="#">Clothing</a></li>
+          <li><a href="#">Home & Kitchen</a></li>
+          <li><a href="#">Beauty</a></li>
+          <li><a href="#">Toys & Games</a></li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="product-grid">
+      <h2>Best Sellers</h2>
+      <div id="productContainer"></div>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>&copy; 2023 Amazon.com, Inc. or its affiliates</p>
+  </footer>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
